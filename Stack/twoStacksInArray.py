@@ -148,4 +148,21 @@ push2(4) the stack2 will be {4}
 pop1()   the poped element will be 3 from stack1 and stack1 will be {2}
 pop2()   the poped element will be 4 from stack2 and now stack2 is empty
 pop2()   the stack2 is now empty hence -1.
+
+
+Example 2:
+Input:
+1   # no of test cases
+5   # size of array
+1 1 3 2 1 4 1 1 5 1 2 2 2   # operations
+
+Output:
+5 4
+
+Explanation:
+push1(3) the stack1 will be {3}
+push2(4) the stack2 will be {4}
+push1(5) the stack1 will be {3,5}
+pop1()   the poped element will be 5 from stack1 and stack1 will be {3}
+pop2()   the poped element will be 4 from stack2 and now stack2 is empty
 '''
